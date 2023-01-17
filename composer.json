@@ -1,0 +1,23 @@
+{
+    "name": "jinber/eccube-share-this",
+    "version": "1.0.0",
+    "description": "Share button",
+    "type": "eccube-plugin",
+    "autoload": {
+        "psr-4": {
+            "Jinber\\ShareThis\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "langziyang",
+            "email": "43412512@qq.com"
+        }
+    ],
+    "require": {
+        "../../../vendor/ec-cube/plugin-installer": "^2.0"
+    },
+    "extra": {
+        "code": "ShareThis"
+    }
+}

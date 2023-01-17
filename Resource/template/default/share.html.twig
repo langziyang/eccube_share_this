@@ -1,0 +1,15 @@
+<script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property={{ property_id }}&product=sticky-share-buttons'
+        async='async'></script>
+
+{% if display_inline %}
+    <script>
+        $(function () {
+            $('#share_this_container').appendTo($('{{ inline_selector|raw }}'))
+        })
+    </script>
+    <div id="share_this_container">
+        <!-- ShareThis BEGIN -->
+        <div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
+    </div>
+{% endif %}
